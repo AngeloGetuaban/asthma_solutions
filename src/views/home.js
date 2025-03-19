@@ -9,14 +9,14 @@ import './home.css'
 
 const Home = (props) => {
   return (
-    <div className="home-container1">
+    <div className="home-container10">
       <Helmet>
-        <title>Asthma Solutions by ChiroHealot</title>
-        <meta property="og:title" content="Asthma Solutions by ChiroHealot" />
+        <title>Asthma Solutions</title>
+        <meta property="og:title" content="Asthma Solutions" />
       </Helmet>
       <div data-modal="practices" className="home-modal1"></div>
       <section className="home-hero">
-        <header className="home-header10">
+        <header className="home-header1">
           <header data-thq="thq-navbar" className="home-navbar">
             <div className="home-left1">
               <nav className="home-links1">
@@ -52,10 +52,10 @@ const Home = (props) => {
                 data-role="Nav"
                 className="home-nav1"
               >
-                <div className="home-container2">
+                <div className="home-container11">
                   <img
                     alt="image"
-                    src="/Branding/logo-1500h.png"
+                    src="/chiro%20healot%20logo-03%20(1)-1500h.png"
                     className="home-image11"
                   />
                   <div data-thq="thq-close-menu" className="home-menu-close">
@@ -69,17 +69,23 @@ const Home = (props) => {
                   data-role="Nav"
                   className="home-nav2"
                 >
-                  <span className="home-text11">Features</span>
-                  <span className="home-text12">How it works</span>
-                  <span className="home-text13">Prices</span>
-                  <span className="home-text14">Contact</span>
+                  <a href="#how-it-works" className="home-link13">
+                    Services
+                  </a>
+                  <a href="#meet" className="home-link14">
+                    <span>About</span>
+                    <br></br>
+                  </a>
+                  <a href="#contact" className="home-link15">
+                    Contact
+                  </a>
                   <a href="#book" className="home-book2 button button-main">
                     <img
                       alt="image"
                       src="/Icons/calendar.svg"
                       className="home-image12"
                     />
-                    <span className="home-text15">Book an appointment</span>
+                    <span className="home-text13">Book an appointment</span>
                   </a>
                 </nav>
               </div>
@@ -89,7 +95,7 @@ const Home = (props) => {
         <div className="home-main">
           <div className="home-content1">
             <div className="home-heading10">
-              <h1 className="home-header11">
+              <h1 className="home-header2">
                 Breathe Easier with Chiro Healot Asthma Solutions
               </h1>
               <p className="home-caption">
@@ -107,31 +113,95 @@ const Home = (props) => {
               <span>Book an appointment</span>
             </a>
           </div>
-          <div className="home-container3">
-            <img alt="image" src="/dr.e-1000w.webp" className="home-image14" />
+          <div className="home-container12">
+            <video
+              src="/videos/hero_video.mp4"
+              poster="/thumbnail_hero-900h.png"
+              controls
+              autoPlay
+              className="home-video1"
+            ></video>
           </div>
         </div>
         <div className="home-background"></div>
       </section>
       <section className="home-practices1">
-        <div className="home-heading11">
-          <p className="home-text17">
-            Welcome to Chiro Healot Asthma Solutions, where your journey to
-            enhanced respiratory wellness begins with innovative, non-invasive
-            care designed to address the root causes of asthma. Here, we combine
-            the latest in chiropractic techniques with a holistic, personalized
-            approach to help you breathe easier and reclaim a healthier, more
-            vibrant life. Our dedicated team is committed to supporting you
-            every step of the way, offering tailored treatment plans that
-            empower you to overcome respiratory challenges and enjoy a renewed
-            sense of well-being.
-          </p>
+        <div className="home-dre">
+          <div className="home-container13">
+            <img
+              alt="image"
+              src="/thumbnail_t2-1000h.webp"
+              className="home-image14"
+            />
+          </div>
+          <div className="home-container14">
+            <p className="home-text15">Dr. Steven Ellsworth</p>
+            <p className="home-text16">Creator of Chiro Healot </p>
+          </div>
         </div>
+        <p className="home-text17">
+          <span>
+            Hello everyone, I’m Dr. Ellsworth, living in paradise—the
+            Philippines.
+          </span>
+          <br></br>
+          <br></br>
+          <span>
+            This day, March 13th, 2025, marks the official launch of Asthma
+            Solutions—a safe, natural, and effective breakthrough in respiratory
+            care. It’s fitting that this launch aligns with Tony Robbins’
+            Unleash the Power Within—a symbol of transformation.
+          </span>
+          <br></br>
+          <br></br>
+          <span>
+            For over 40 years, I’ve focused on the nervous system. In
+            embryology, our Creator designed the nervous system to be laid down
+            first, as it controls and regulates every organ and tissue in the
+            body.
+          </span>
+          <br></br>
+          <br></br>
+          <span>
+            I have discovered a revolutionary way to access the nervous system,
+            utilizing Michelangelo’s Vitruvian Man to tap into the body&apos;s
+            biocomputer on the physical, emotional, and chemical levels. By
+            accessing the body’s innate wisdom, we identify and release blocks,
+            restoring health and well-being across all three levels.
+          </span>
+          <br></br>
+          <br></br>
+          <span>
+            Partnering with Dr. Johan Gerardo, we used scientifically validated
+            asthma questionnaires to measure results. The data is clear: 700+
+            patients, 97% success rate—not just weeks, but years of asthma-free
+            living.
+          </span>
+          <br></br>
+          <br></br>
+          <span>
+            Now, we’re bringing this transformative solution worldwide. Over the
+            next four days, I’m seeking the right mentors, coaches, and
+            investors to scale this movement.
+          </span>
+          <br></br>
+          <br></br>
+          <span>
+            As we gather for our Team Asthma Solutions group photo, scan the
+            barcode for more details.
+          </span>
+          <br></br>
+          <br></br>
+          <span>
+            Let’s redefine respiratory health and create something
+            extraordinary—together.
+          </span>
+        </p>
       </section>
       <section className="home-practices2">
-        <div className="home-heading12">
-          <h2 className="home-text18">Holistic Approach</h2>
-          <p className="home-text19">
+        <div className="home-heading11">
+          <h2 className="home-text40">Holistic Approach</h2>
+          <p className="home-text41">
             Discover how our specialized chiro healot treatments can help manage
             asthma symptoms naturally
           </p>
@@ -144,7 +214,7 @@ const Home = (props) => {
                   title="Better Quality of Life"
                   header={
                     <Fragment>
-                      <span className="home-text20">
+                      <span className="home-text42">
                         Better Quality of Life
                       </span>
                     </Fragment>
@@ -159,7 +229,7 @@ const Home = (props) => {
                   title="Improved Breathing"
                   header={
                     <Fragment>
-                      <span className="home-text21">Improved Breathing</span>
+                      <span className="home-text43">Improved Breathing</span>
                     </Fragment>
                   }
                   description="Support proper respiratory function by addressing misalignments that can contribute to restricted airways and reduced lung capacity."
@@ -172,7 +242,7 @@ const Home = (props) => {
                   title="Released Trapped Emotions"
                   header={
                     <Fragment>
-                      <span className="home-text22">
+                      <span className="home-text44">
                         Released Trapped Emotions
                       </span>
                     </Fragment>
@@ -187,7 +257,7 @@ const Home = (props) => {
                   title="Released Trapped Emotions"
                   header={
                     <Fragment>
-                      <span className="home-text23">Nutrition</span>
+                      <span className="home-text45">Nutrition</span>
                     </Fragment>
                   }
                   description="Optimize your body’s natural healing processes by focusing on a balanced diet that complements chiropractic care and overall wellness."
@@ -200,7 +270,7 @@ const Home = (props) => {
                   title="Nutrition"
                   header={
                     <Fragment>
-                      <span className="home-text24">
+                      <span className="home-text46">
                         <span>Enhanced Immune Support</span>
                         <br></br>
                         Cardiology
@@ -217,7 +287,7 @@ const Home = (props) => {
                   title="Reduced Stress Levels"
                   header={
                     <Fragment>
-                      <span className="home-text27">Reduced Stress Levels</span>
+                      <span className="home-text49">Reduced Stress Levels</span>
                     </Fragment>
                   }
                   description="Alleviate tension and improve relaxation, helping you manage daily stressors more effectively and maintain mental clarity."
@@ -228,30 +298,35 @@ const Home = (props) => {
         </div>
       </section>
       <section id="how-it-works" className="home-why">
-        <div className="home-heading13">
-          <h2 className="home-header12">Why choose us</h2>
-          <p className="home-header13">
+        <div className="home-heading12">
+          <h2 className="home-header3">Why choose us</h2>
+          <p className="home-header4">
             Experience real healing through the stories of our patients—watch
             how ChiroHealot has transformed lives with expert care and holistic
             treatments!
           </p>
         </div>
-        <video
-          src="/asthma_testimony.mov"
-          poster="/thumbnail_asthma-1200w.png"
-          controls
-          playsInline
-          className="home-video1"
-        ></video>
-        <h3 className="home-header14">
-          Unexpected relief: A breakthrough of Reggie&apos;s near death
-          experience of asthma attack ! 🤯🔥
-        </h3>
+        <div className="home-videos-testimonials">
+          <video
+            src="/asthma_testimony.mov"
+            poster="/thumbnail_asthma-900w.png"
+            controls
+            playsInline
+            className="home-video2"
+          ></video>
+          <video
+            src="/videos/testimonial_2.mp4"
+            controls
+            playsInline
+            poster="/thumbnail_hero-900h.png"
+            className="home-video3"
+          ></video>
+        </div>
       </section>
       <section id="book" className="home-book4">
-        <div className="home-heading14">
-          <h2 className="home-text28">Need more Information?</h2>
-          <p className="home-text29">
+        <div className="home-heading13">
+          <h2 className="home-text50">Need more Information?</h2>
+          <p className="home-text51">
             <span>Send us your question through your email</span>
             <br></br>
           </p>
@@ -281,13 +356,13 @@ const Home = (props) => {
         </div>
       </section>
       <section className="home-features">
-        <h1 className="home-text33">
+        <h1 className="home-text55">
           Breathe Easy with ChiroHealot: A Holistic Solution for Asthma Relief
         </h1>
         <div className="home-section1">
           <div className="home-content3">
-            <div className="home-header15">
-              <h2 className="home-heading15">Structural Realignment</h2>
+            <div className="home-header5">
+              <h2 className="home-heading14">Structural Realignment</h2>
               <p className="home-capton1">
                 helps improve lung function by correcting misalignments in the
                 upper spine that may interfere with nerve signals to the lungs
@@ -300,15 +375,15 @@ const Home = (props) => {
           </div>
           <video
             src="/trt%20(2).mp4"
-            controls
             poster="/thumbnail_trt-500w.png"
-            className="home-video2"
+            controls
+            className="home-video4"
           ></video>
         </div>
         <div className="home-section2">
           <div className="home-content4">
-            <div className="home-header16">
-              <h2 className="home-heading16">Massage Therapy</h2>
+            <div className="home-header6">
+              <h2 className="home-heading15">Massage Therapy</h2>
               <p className="home-capton2">
                 focuses on relaxing tight muscles in the chest, back, and neck
                 that can restrict breathing. Through Neuromuscular Re-Education
@@ -323,13 +398,13 @@ const Home = (props) => {
             src="/massage.mov"
             poster="/thumbnail_massage-400h.png"
             controls
-            className="home-video3"
+            className="home-video5"
           ></video>
         </div>
         <div className="home-section3">
           <div className="home-content5">
-            <div className="home-header17">
-              <h2 className="home-heading17">Emotional Release Therapy</h2>
+            <div className="home-header7">
+              <h2 className="home-heading16">Emotional Release Therapy</h2>
               <p className="home-capton3">
                 {' '}
                 addresses stress and anxiety, which are common triggers for
@@ -344,15 +419,15 @@ const Home = (props) => {
           <video
             src="/emotional.mp4"
             poster="/thumbnail_emotional-500w.png"
-            controls
-            className="home-video4"
+            controls="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
+            className="home-video6"
           ></video>
         </div>
       </section>
       <section id="book" className="home-book6">
-        <div className="home-heading18">
-          <h2 className="home-text34">Book an appointment</h2>
-          <p className="home-text35">
+        <div className="home-heading17">
+          <h2 className="home-text56">Book an appointment</h2>
+          <p className="home-text57">
             Take the first step towards better health. Book your consultation
             today and let our experts help you find relief and healing.
           </p>
@@ -406,10 +481,10 @@ const Home = (props) => {
         </div>
       </section>
       <section id="meet" className="home-meet1">
-        <div className="home-heading19">
-          <div className="home-heading20">
-            <h2 className="home-text37">Meet the Doctor</h2>
-            <p className="home-text38">
+        <div className="home-heading18">
+          <div className="home-heading19">
+            <h2 className="home-text59">Meet the Doctor</h2>
+            <p className="home-text60">
               Introducing Dr. Steven Ellsworth, Creator of Chiro Healot Asthma
               Solutions
             </p>
@@ -420,7 +495,7 @@ const Home = (props) => {
           src="/dr-e-funnels-v2-700h.webp"
           className="home-image16"
         />
-        <span className="home-text39">
+        <span className="home-text61">
           Dr. Steven Ellsworth is a dedicated chiropractor with a passion for
           helping individuals achieve lasting relief from respiratory
           challenges. As the creator of Chiro Healot Asthma Solutions, he
@@ -434,13 +509,19 @@ const Home = (props) => {
           Ellsworth continues to empower patients to breathe easier and embrace
           a renewed sense of well-being.
         </span>
+        <video
+          src="/chiro_healot.mp4"
+          poster="/chiro_healot_works-1100w.png"
+          controls
+          className="home-video7"
+        ></video>
       </section>
       <div id="contact" className="home-contact">
         <section className="home-meet2">
-          <div className="home-heading21">
-            <div className="home-heading22">
-              <h2 className="home-text40">Contact us</h2>
-              <p className="home-text41">
+          <div className="home-heading20">
+            <div className="home-heading21">
+              <h2 className="home-text62">Contact us</h2>
+              <p className="home-text63">
                 Ready to take control of your respiratory health and live more
                 comfortably? Reach out to us today!
               </p>
@@ -452,13 +533,13 @@ const Home = (props) => {
               className="home-google-maps1"
             ></iframe>
             <div className="home-cdo-uptown">
-              <h1 className="home-text42">CDO UPTOWN BRANCH</h1>
-              <p className="home-text43">
+              <h1 className="home-text64">CDO UPTOWN BRANCH</h1>
+              <p className="home-text65">
                 3rd floor E-MAX Building, Mastersons Avenue, Upper, Cagayan de
                 Oro, 9000 Misamis Oriental
               </p>
-              <p className="home-text44">chirohealot.cdo@gmail.com</p>
-              <p className="home-text45">(+63)917-147-3309</p>
+              <p className="home-text66">chirohealot.cdo@gmail.com</p>
+              <p className="home-text67">(+63)917-147-3309</p>
             </div>
           </div>
           <div className="home-iligan1">
@@ -467,13 +548,13 @@ const Home = (props) => {
               className="home-google-maps2"
             ></iframe>
             <div className="home-iligan2">
-              <h1 className="home-text46">ILIGAN BRANCH</h1>
-              <p className="home-text47">
+              <h1 className="home-text68">ILIGAN BRANCH</h1>
+              <p className="home-text69">
                 Marietta Tower, 2nd Floor, Manuel L. Quezon Ave, Iligan City,
                 9200 Lanao del Norte
               </p>
-              <p className="home-text48">chirohealot.ph@gmail.com</p>
-              <p className="home-text49">(+63)927-392-0999</p>
+              <p className="home-text70">chirohealot.ph@gmail.com</p>
+              <p className="home-text71">(+63)927-392-0999</p>
             </div>
           </div>
         </section>
@@ -486,7 +567,7 @@ const Home = (props) => {
               src="/chiro%20healot%20logo-03%20(1)-1500h.png"
               className="home-image17"
             />
-            <p className="home-text50">
+            <p className="home-text72">
               Chiro Healot is an innovative, non-invasive approach that
               harnesses chiropractic techniques to help individuals find lasting
               relief from asthma symptoms and improve overall respiratory
@@ -522,15 +603,21 @@ const Home = (props) => {
         </div>
         <div className="home-right2">
           <div className="home-list1">
-            <span className="home-header18">Menu</span>
+            <span className="home-header8">Menu</span>
             <div className="home-links2">
-              <span className="home-link13">Services</span>
-              <span className="home-link14">About</span>
-              <span className="home-link15">Contact</span>
+              <a href="#how-it-works" className="home-link16">
+                Services
+              </a>
+              <a href="#meet" className="home-link17">
+                About
+              </a>
+              <a href="#contact" className="home-link18">
+                Contact
+              </a>
             </div>
           </div>
           <div className="home-list2">
-            <span className="home-header19">Contact</span>
+            <span className="home-header9">Contact</span>
             <div className="home-links3">
               <div className="home-address1">
                 <svg width="24" height="24" viewBox="0 0 24 24">
@@ -539,7 +626,7 @@ const Home = (props) => {
                     fill="currentColor"
                   ></path>
                 </svg>
-                <span className="home-link16">
+                <span className="home-link19">
                   3rd floor E-MAX Building, Mastersons Avenue, Upper, Cagayan de
                   Oro, 9000 Misamis Oriental
                 </span>
@@ -553,7 +640,7 @@ const Home = (props) => {
                 </svg>
                 <a
                   href="mailto:contact@template.new?subject=Main"
-                  className="home-link17"
+                  className="home-link20"
                 >
                   chirohealot.cdo@gmail.com
                 </a>
@@ -570,7 +657,7 @@ const Home = (props) => {
                     fill="currentColor"
                   ></path>
                 </svg>
-                <a href="tel:(004) 234 - 5678" className="home-link18">
+                <a href="tel:(004) 234 - 5678" className="home-link21">
                   (+63)917-147-3309
                 </a>
               </div>
@@ -581,7 +668,7 @@ const Home = (props) => {
                     fill="currentColor"
                   ></path>
                 </svg>
-                <span className="home-link19">
+                <span className="home-link22">
                   Marietta Tower, 2nd Floor, Manuel L. Quezon Ave, Iligan City,
                   9200 Lanao del Norte
                 </span>
@@ -595,7 +682,7 @@ const Home = (props) => {
                 </svg>
                 <a
                   href="mailto:contact@template.new?subject=Main"
-                  className="home-link20"
+                  className="home-link23"
                 >
                   chirohealot.ph@gmail.com
                 </a>
@@ -612,7 +699,7 @@ const Home = (props) => {
                     fill="currentColor"
                   ></path>
                 </svg>
-                <a href="tel:(004) 234 - 5678" className="home-link21">
+                <a href="tel:(004) 234 - 5678" className="home-link24">
                   (+63)927-392-0999
                 </a>
               </div>
@@ -624,7 +711,7 @@ const Home = (props) => {
         </div>
       </div>
       <div>
-        <div className="home-container5">
+        <div className="home-container16">
           <Script
             html={`<script>
 const modalOpen = document.querySelectorAll('[data-open]');
@@ -649,7 +736,7 @@ modalClose.forEach(button => {
         </div>
       </div>
       <div>
-        <div className="home-container7">
+        <div className="home-container18">
           <Script
             html={`<script>
 const dataLetters = document.querySelectorAll("[data-letter]");
@@ -744,7 +831,7 @@ const showResults = () => {
         </div>
       </div>
       <div>
-        <div className="home-container9">
+        <div className="home-container20">
           <Script
             html={`<script>
 function scroll(direction) {
