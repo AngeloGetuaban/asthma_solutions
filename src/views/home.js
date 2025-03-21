@@ -11,8 +11,16 @@ const Home = (props) => {
   return (
     <div className="home-container10">
       <Helmet>
-        <title>Asthma Solutions</title>
-        <meta property="og:title" content="Asthma Solutions" />
+        <title>Asthma Solutions by ChiroHealot</title>
+        <meta
+          name="description"
+          content="Discover natural and effective asthma relief with ChiroHealot's innovative approach. Our holistic solutions integrate advanced chiropractic care, kinesiology, and essential oil therapy to improve breathing and overall lung health. Experience safe, drug-free relief today!"
+        />
+        <meta property="og:title" content="Asthma Solutions by ChiroHealot" />
+        <meta
+          property="og:description"
+          content="Discover natural and effective asthma relief with ChiroHealot's innovative approach. Our holistic solutions integrate advanced chiropractic care, kinesiology, and essential oil therapy to improve breathing and overall lung health. Experience safe, drug-free relief today!"
+        />
       </Helmet>
       <div data-modal="practices" className="home-modal1"></div>
       <section className="home-hero">
@@ -116,9 +124,9 @@ const Home = (props) => {
           <div className="home-container12">
             <video
               src="/videos/hero_video.mp4"
-              poster="/thumbnail_hero-900h.png"
-              controls
+              poster="/thumbnail_hero-800h.png"
               autoPlay
+              controls
               className="home-video1"
             ></video>
           </div>
@@ -309,16 +317,16 @@ const Home = (props) => {
         <div className="home-videos-testimonials">
           <video
             src="/asthma_testimony.mov"
-            poster="/thumbnail_asthma-900w.png"
+            poster="/thumbnail_asthma-1900w.png"
             controls
             playsInline
             className="home-video2"
           ></video>
           <video
             src="/videos/testimonial_2.mp4"
+            poster="/thumbnail_testimiony2-1900w.png"
             controls
             playsInline
-            poster="/thumbnail_hero-900h.png"
             className="home-video3"
           ></video>
         </div>

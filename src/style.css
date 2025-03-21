@@ -820,7 +820,7 @@
   }
 }
  
-@media(max-width: 479px) {
+@media(max-width: 436px) {
   .thq-section-padding {
     padding: var(--dl-layout-space-oneandhalfunits);
   }
